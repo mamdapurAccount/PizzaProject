@@ -11,12 +11,12 @@ import org.mockito.runners.MockitoJUnitRunner;
 import com.aditi.IStudent;
 import com.aditi.StudentDao;
 
-@RunWith(MockitoJUnitRunner.class)
+//@RunWith(MockitoJUnitRunner.class)
 public class MyTest {
-@Mock
-	IStudent std;
-@InjectMocks	
-StudentDao dao;
+//@Mock
+//	IStudent std;
+//@InjectMocks	
+//StudentDao dao;
 	
 @Test
 public void test1() {
