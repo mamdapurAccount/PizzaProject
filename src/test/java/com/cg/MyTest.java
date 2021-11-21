@@ -21,7 +21,7 @@ StudentDao dao;
 @Test
 public void test1() {
 	when(std.getMarks(5)).thenReturn(90);
-	assertEquals("Fail", dao.getResult(std, 5));
+	assertEquals("Pass", dao.getResult(std, 5));
 	
 }
 
